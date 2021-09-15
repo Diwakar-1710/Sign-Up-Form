@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <form action="#" method="post" onsubmit="return validateForm()">
+        <h2>Sign Up</h2>
+
+                <p>
+                    <label for="FName" class="floatLabel">First Name</label>
+                    <input id="FName" name="FName" type="text">
+                    <span id="FNameMsg"></span>
+                </p>
+
+                <p>
+                    <label for="LName" class="floatLabel">Last Name</label>
+                    <input id="LName" name="LName" type="text">
+                    <span id="LNameMsg"></span>
+                </p>
+
+              <p>
+                  <label for="Email" class="floatLabel">Email</label>
+                  <input id="Email" name="Email" type="text">
+                  <span id="EmailMsg"></span>
+              </p>
+              <p>
+                  <label for="password" class="floatLabel">Password</label>
+                  <input id="password" name="password" type="password">
+                  <span id="passwordMessage"></span>
+              </p>
+              <p>
+                  <label for="confirm_password" class="floatLabel">Confirm Password</label>
+                  <input id="confirm_password" name="confirm_password" type="password">
+                  <span id="confirm_password_message"></span>
+              </p>
+              <p>
+                  <input type="submit" value="Create My Account" id="submit">
+              </p>
+          </form>
+
+        <script src="scripts.js"></script>
+</body>
+</html>
